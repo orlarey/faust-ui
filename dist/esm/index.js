@@ -2812,7 +2812,7 @@ class Button extends _AbstractInputItem__WEBPACK_IMPORTED_MODULE_0__["default"] 
     this.layout = {
       type: "button",
       width: 1,
-      height: 0.5,
+      height: 1,
       sizing: "none"
     };
   }
@@ -2839,7 +2839,7 @@ class Checkbox extends _AbstractInputItem__WEBPACK_IMPORTED_MODULE_0__["default"
     this.layout = {
       type: "checkbox",
       width: 1,
-      height: 0.5,
+      height: 1,
       sizing: "none"
     };
   }
@@ -3128,8 +3128,8 @@ class Led extends _AbstractOutputItem__WEBPACK_IMPORTED_MODULE_0__["default"] {
     super(...arguments);
     this.layout = {
       type: "led",
-      width: 0.25,
-      height: 0.25,
+      width: 1,
+      height: 1,
       sizing: "none"
     };
   }
