@@ -69,12 +69,12 @@ By defining a `style` metadata, user can eventually override the look of a UI pr
 Each UI component has its initial dimensions in grids. Then some of them can be extensible in one or two axis if they have extra spaces. 
 
 | type      | vertically extensible          | horizontal extensible          |
-|-----------|--------------------------------|--------------------------------|
+| --------- | ------------------------------ | ------------------------------ |
 | hgroup    | if has v-extensible descendant | if has h-extensible descendant |
 | vgroup    | if has v-extensible descendant | if has h-extensible descendant |
 | tgroup    | if has v-extensible descendant | if has h-extensible descendant |
-| button    | no                             | yes                            |
-| checkbox  | no                             | yes                            |
+| button    | no                             | no                             |
+| checkbox  | no                             | no                             |
 | hslider   | no                             | yes                            |
 | vslider   | yes                            | no                             |
 | nentry    | no                             | no                             |
