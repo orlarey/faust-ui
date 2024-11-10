@@ -1676,7 +1676,7 @@ class Button extends _AbstractItem__WEBPACK_IMPORTED_MODULE_0__["default"] {
       this.btn.style.backgroundColor = value ? bgoncolor : bgcolor;
       this.btn.style.borderColor = value ? borderoncolor : bordercolor;
       this.btn.style.color = value ? textoncolor : textcolor;
-      this.btn.style.fontSize = `${fontsize || height * grid / 4}px`;
+      this.btn.style.fontSize = `${fontsize || height * grid / 2}px`;
       this.btn.style.fontFamily = `${fontname}, sans-serif`;
       this.btn.style.fontStyle = fontface;
     };
@@ -4051,8 +4051,8 @@ class Led extends _AbstractOutputItem__WEBPACK_IMPORTED_MODULE_0__["default"] {
     super(...arguments);
     this.layout = {
       type: "led",
-      width: 1,
-      height: 1,
+      width: 0.25,
+      height: 0.25,
       sizing: "none"
     };
   }
