@@ -2812,7 +2812,7 @@ class Button extends _AbstractInputItem__WEBPACK_IMPORTED_MODULE_0__["default"] 
     this.layout = {
       type: "button",
       width: 1,
-      height: 1,
+      height: 0.66,
       sizing: "none"
     };
   }
@@ -2839,7 +2839,7 @@ class Checkbox extends _AbstractInputItem__WEBPACK_IMPORTED_MODULE_0__["default"
     this.layout = {
       type: "checkbox",
       width: 1,
-      height: 1,
+      height: 0.66,
       sizing: "none"
     };
   }
